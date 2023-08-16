@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   sbirentals:
-    image: 896455691384.dkr.ecr.us-east-2.amazonaws.com/rentalsapi:latest
+    image: sbirentals
     build:
       context: .
       dockerfile: ./Dockerfile
