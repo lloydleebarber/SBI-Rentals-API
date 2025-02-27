@@ -23,6 +23,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="main.py" />
+    <Compile Include="sql_app\crud.py" />
+    <Compile Include="sql_app\database.py" />
+    <Compile Include="sql_app\models.py" />
+    <Compile Include="sql_app\schemas.py" />
+    <Compile Include="sql_app\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="sql_app\" />
